@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.header {
+  border-bottom: 1px solid #ccc;
+}
+.header .inn {
+  margin: 32px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin-right: 50px;
+}
+.header ul li a {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+.wrap .main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap .main .move-bg .txt {
+  font-family: "TheJamsil5Bold";
+  position: relative;
+  color: #000;
+  font-size: 110px;
+}
+.wrap .main .move-bg .txt img {
+  width: 9.5%;
+  position: absolute;
+  top: 68%;
+  right: 83.9%;
+}
+.wrap .intro {
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .intro p {
+  line-height: 1.4;
+  font-size: 30px;
+  text-align: center;
+}
+.wrap .project .move-bg h2 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 220px;
+}
+.wrap .project .move-bg ul {
+  margin: 0 auto;
+}
+.wrap .project .move-bg ul li {
+  height: 200px;
+  border: 1px solid black;
+}
+.wrap .project .move-bg ul li a {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap .project .move-bg ul li a .one_box strong {
+  font-weight: bold;
+  font-size: 40px;
+}
+.wrap .project .move-bg ul li a figure {
+  display: none;
+}
+.wrap .project .move-bg ul li a .two_box a {
+  font-weight: bold;
+}
+.wrap .project .move-bg ul li a .two_box a span img {
+  height: 25px;
+}
+.wrap .project .move-bg ul li a .two_box .icon {
+  display: flex;
+  justify-content: center;
+}
