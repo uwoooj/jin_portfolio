@@ -1,7 +1,6 @@
 import React, {
     useContext,
     useEffect,
-    useReducer,
     useRef,
     useState,
 } from "react";
@@ -11,7 +10,7 @@ import "../App.scss";
 import { myContext } from "./Context";
 
 function Home() {
-    const { src, setSrc, data, setData, testNum } = useContext(myContext);
+    const { src, setSrc } = useContext(myContext);
     const [scrollPosition, setScrollPosition] = useState(0);
     const mainSectionRef = useRef(null);
 

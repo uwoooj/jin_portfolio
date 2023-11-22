@@ -7,7 +7,7 @@ function Header() {
         <div className="header">
             <div className="inn">
                 <h1 className="logo">
-                    <img src="./Yjin.png"></img>
+                    <img src="./YJin.png"></img>
                 </h1>
                 <ul className="gnb">
                     <li>
